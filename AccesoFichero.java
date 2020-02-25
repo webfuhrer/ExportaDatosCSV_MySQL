@@ -23,6 +23,7 @@ public static ArrayList<Contacto> recuperarContactos()
 				//String aux=nombre+separador+email+separador+telefono;
 				Contacto c=new Contacto(datos[0], datos[2], datos[1]);
 				lista_contactos.add(c);
+				linea=br.readLine();
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

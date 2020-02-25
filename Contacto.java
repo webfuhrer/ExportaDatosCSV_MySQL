@@ -21,7 +21,7 @@ public String getEmail() {
 }
 public String pasarA_CSV()
 	{
-		String aux=nombre+separador+email+separador+telefono;
+		String aux=nombre+separador+email+separador+telefono+"\n";
 		return aux;
 				
 	}
